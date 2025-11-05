@@ -9,7 +9,7 @@ interface SubtitleItem {
   time: string;
   original: string;
   translated: string;
-  status: 'playing' | 'played';
+  status: string;
 }
 
 const MeetingRoomPage: React.FC = () => {
